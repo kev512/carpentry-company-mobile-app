@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Strona Główna" />
+    <item android:title="Informacje O Firmie" />
+    <item android:title="Nasza Oferta" />
+    <item android:title="Galeria - realizacje" />
+    <item android:title="Informacje Kontaktowe" />
+</menu>

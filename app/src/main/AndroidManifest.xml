@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPortfolio">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" android:theme="@style/Theme.AndroidPortfolio.NoActionBar"></activity>
         <activity android:name=".SplashScreenActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
