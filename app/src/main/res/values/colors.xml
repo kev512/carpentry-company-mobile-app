@@ -14,5 +14,6 @@
     <color name="colorBackgroundGrey">#F7F7F7</color>
     <color name="colorFontHeader">#000000</color>
     <color name="colorFontTextView">#2B2B2B</color>
+    <color name="colorDarkGrey">#B7B7B7</color>
     <color name="colorWhite">#FFFFFF</color>
 </resources>

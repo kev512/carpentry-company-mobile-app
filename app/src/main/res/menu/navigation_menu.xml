@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Strona Główna" />
-    <item android:title="Informacje O Firmie" />
-    <item android:title="Nasza Oferta" />
-    <item android:title="Galeria - realizacje" />
-    <item android:title="Informacje Kontaktowe" />
+    <group android:id="@+id/main_menu">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_house"
+        android:title="Strona Główna" />
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_information"
+        android:title="Informacje O Firmie" />
+    <item
+        android:id="@+id/offer"
+        android:icon="@drawable/ic_customer_support"
+        android:title="Nasza Oferta" />
+    <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/ic_image_gallery"
+        android:title="Galeria - realizacje" />
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_map"
+        android:title="Informacje Kontaktowe" />
+
+    </group>
+
+    <item
+        android:checkable="false"
+        android:enabled="false"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:title="© 1996-2021 Mebel-Technik." />
+
+
+
+
+
 </menu>
+
