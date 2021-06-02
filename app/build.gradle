@@ -46,4 +46,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     def lottieVersion = "3.7.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    // Additional Libraries
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
 }
