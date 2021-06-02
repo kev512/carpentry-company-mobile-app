@@ -39,19 +39,24 @@ class Galeria : Fragment() {
         galleryModelList.add(
             GalleryModel(
             "Meble Kuchenne",
-            "Meble Kuchenne OPIS",
+            "Wykonane na wymiar w pełni dostosowane do potrzeb klienta",
             R.drawable.img_cover_1)
         )
 
         galleryModelList.add(GalleryModel(
-            "Meble Łazienkowe",
-            "Meble Łazienkowe OPIS",
-            R.drawable.img_cover_1))
+            "Łazienki",
+            "Nowoczesne i stylowe, idealnie dopasowane nawet do najmniejszej przestrzeni",
+            R.drawable.img_cover_2))
 
         galleryModelList.add(GalleryModel(
-            "Meble Biurowe",
-            "Meble Biurowe OPIS",
-            R.drawable.img_cover_1))
+            "Garderoby",
+            "Pojemne i funkcjonalne - dokładnie dopasowane do architektury wnętrza",
+            R.drawable.img_cover_3))
+
+        galleryModelList.add(GalleryModel(
+            "Apteki",
+            "Kompletne wyposażenie aptek - głębokie szuflady, regały apteczne, lady systemowe",
+            R.drawable.img_cover_4))
 
         // setup the adapter
     galleryAdapter = GalleryAdapter(context, galleryModelList)

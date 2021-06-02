@@ -30,8 +30,9 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="The Title"
+                android:fontFamily="@font/bold"
                 android:textColor="#000"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/descriptionTv"
@@ -40,7 +41,10 @@
                 android:layout_marginStart="8dp"
                 android:maxLines="3"
                 android:minLines="3"
+                android:textSize="14dp"
+                android:textColor="#000"
                 android:text="The description"
+                android:fontFamily="@font/regular"
                 android:layout_marginLeft="8dp"/>
 
 
