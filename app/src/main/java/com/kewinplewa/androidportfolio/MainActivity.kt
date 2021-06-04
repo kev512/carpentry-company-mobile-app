@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         nav_menu.setNavigationItemSelectedListener(this)
 
-        setToolbarTitle("Mebel-Technik: home")
+        setToolbarTitle("Mebel-Technik: Witaj!")
 
         changeFragment(Home())
 
