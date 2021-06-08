@@ -417,7 +417,7 @@
                     android:minLines="3"
                     android:paddingHorizontal="12dp"
                     android:paddingBottom="5dp"
-                    android:text=" Z bardzo dużą dokładnością dokonamy pomiaru Państwa wnętrza, aby meble były idealnie dopasowane"
+                    android:text="Z bardzo dużą dokładnością dokonamy pomiaru Państwa wnętrza, aby meble były idealnie dopasowane"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
