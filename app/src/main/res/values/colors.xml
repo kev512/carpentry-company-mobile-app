@@ -11,6 +11,7 @@
     <!-- Custom Colors -->
 
     <color name="colorPrimaryRed">#BE2222</color>
+    <color name="colorPrimaryRedDark">#b31d1d</color>
     <color name="colorBackgroundGrey">#F7F7F7</color>
     <color name="colorFontHeader">#000000</color>
     <color name="colorFontTextView">#2B2B2B</color>
