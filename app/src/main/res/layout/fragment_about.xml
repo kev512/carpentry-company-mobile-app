@@ -1,19 +1,305 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/ic_fragmentbackground"
     tools:context=".About">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Informacje O Firmie Fragment"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/extrabold"
+            android:text="Kim"
+            android:textColor="@color/colorFontHeader"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/extrabold"
+            android:text="jesteśmy"
+            android:textColor="@color/colorPrimaryRed"
+            android:textSize="22sp"
+            app:layout_constraintStart_toEndOf="@+id/textView1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/extrabold"
+            android:text="oraz czym się"
+            android:textColor="@color/colorFontHeader"
+            android:textSize="22sp"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/extrabold"
+            android:text="zajmujemy?"
+            android:textColor="@color/colorFontHeader"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/medium"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Działamy nieprzerwanie od 1996 roku, zajmujemy się produkcją mebli na zamówienie."
+            android:textColor="@color/colorFontHeader"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/light"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Jesteśmy dynamicznie rozwijającą się firmą. Specjalizujemy się w projektowaniu i wykonywaniu mebli na wymiar każdego rodzaju, od kuchennych i pokojowych po wyposażenie aptek oraz gabinetów lekarskich."
+            android:textColor="@color/colorFontHeader"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/main_hero_background"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="12dp"
+            app:cardBackgroundColor="@color/colorPrimaryRed"
+            app:cardCornerRadius="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/main_hero">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/main_hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="18dp"
+            app:cardCornerRadius="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/about_hero_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_cover_1"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="346dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/extralight"
+            android:text="Nasza dewiza to"
+            android:textColor="@color/colorFontHeader"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_hero" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/extralight"
+            android:text="jakość"
+            android:textColor="@color/colorPrimaryRed"
+            android:textSize="28sp"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/main_hero" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/extralight"
+            android:text="i rzetelność"
+            android:textColor="@color/colorFontHeader"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/medium"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Naszą pasją jest stolarstwo oraz wszystko co jest z nimi związane."
+            android:textColor="@color/colorFontHeader"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/light"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Łączymy przyjemność z możliwością wykonywania pracy, dlatego jakość świadczonych przez nas usług daleko przekracza kompetencje konkurencji. Miła i profesjonalna obsługa oraz atrakcyjna oferta, która skierowana jest do wszystkich, zarówno firm i instytucji jak również do osób prywatnych. Wizja rzetelnej i profesjonalnej firmy zapewniającej kompleksową obsługę wszelkich potrzeb w zakresie mebli jest realizowana przez nas w praktycznym działaniu."
+            android:textColor="@color/colorFontHeader"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/redSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimaryRed"
+            app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryRed">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="Każdy klient jest dla nas najważniejszy, zawsze kreatywnie myślimy o potrzebach klienta"
+                android:layout_marginTop="32dp"
+                android:paddingHorizontal="16dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:text="Mimo ponad 25-letniego doświadczenia na rynku polskim oraz europejskim, stale poszerzamy swoją wiedzę i kompetencje, aby w profesjonalny sposób sprostać wymaganiom nawet najbardziej wymagających klientów."
+                    android:layout_marginTop="24dp"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="17sp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Mebel-Technik jest autoryzowanym partnerem jakości marki BLUM"
+                    android:layout_marginTop="32dp"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="22sp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:paddingHorizontal="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="32dp"
+                    app:cardCornerRadius="28dp"
+                    android:layout_marginBottom="32dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimaryRed"
+                        android:src="@drawable/blum_logo"
+                        android:padding="12dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/extralight"
+            android:text="Współpraca z"
+            android:textColor="@color/colorFontHeader"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/redSection" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
