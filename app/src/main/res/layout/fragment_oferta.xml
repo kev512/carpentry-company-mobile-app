@@ -7,6 +7,7 @@
     android:fillViewport="true"
     android:background="@drawable/ic_fragmentbackground"
     tools:context=".Oferta">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -537,7 +538,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
         <Button
-            android:id="@+id/ofertaPDF"
+            android:id="@+id/btn_ofertaPDF"
             android:layout_width="match_parent"
             android:fontFamily="@font/semibold"
             android:textColor="@color/colorWhite"
