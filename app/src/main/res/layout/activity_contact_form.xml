@@ -22,16 +22,16 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:alpha="0.5"
+        app:cardBackgroundColor="@color/colorBackgroundGrey"
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1">
-        
+
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:id="@+id/textInputLayout1"
@@ -49,12 +49,49 @@
             app:startIconDrawable="@drawable/ic_baseline_mail_outline_24">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textInputEditText1"
+                android:id="@+id/email"
                 android:maxLength="22"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
 
         </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Wiadomość"
+            app:counterEnabled="true"
+            app:counterMaxLength="300">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lines="10"
+                android:gravity="start"
+                android:maxLength="300" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/semibold"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginBottom="32dp"
+            android:text="Wyślij"
+            app:shapeAppearanceOverlay="@style/custom_button"
+            android:textSize="15sp"
+            android:backgroundTint="@color/colorPrimaryRed"/>
 
 
     </androidx.cardview.widget.CardView>
