@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kewinplewa.androidportfolio">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPortfolio"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ViewPdfActivity"></activity>
+        <activity android:name=".ContactForm"></activity>
+        <activity android:name=".ViewPdfActivity" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
@@ -26,9 +32,5 @@
             </intent-filter>
         </activity>
     </application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>
