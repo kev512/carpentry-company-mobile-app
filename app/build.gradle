@@ -52,4 +52,5 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.flaviofaria:kenburnsview:1.0.7'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
 }
