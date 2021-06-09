@@ -17,4 +17,5 @@
     <color name="colorFontTextView">#2B2B2B</color>
     <color name="colorDarkGrey">#B7B7B7</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="contactBackground">#B3ffffff</color>
 </resources>
