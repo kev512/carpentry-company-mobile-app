@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.github.barteksc.pdfviewer.PDFView
+import kotlinx.android.synthetic.main.fragment_about.*
 import kotlinx.android.synthetic.main.fragment_oferta.*
 
 
@@ -28,6 +29,12 @@ class Oferta : Fragment() {
             val fieldIntent = Intent(this@Oferta.context, ViewPdfActivity::class.java)
 
             fieldIntent.putExtra("ViewType", "assets")
+            startActivity(fieldIntent)
+        }
+
+        fab_btn2.setOnClickListener {
+
+            val fieldIntent = Intent(this@Oferta.context, ContactForm::class.java)
             startActivity(fieldIntent)
         }
 
