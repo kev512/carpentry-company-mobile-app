@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         nav_menu.setNavigationItemSelectedListener(this)
 
-        setToolbarTitle("Mebel-Technik: Witaj!")
+        setToolbarTitle("Mebel-Technik")
 
         changeFragment(Home())
 
@@ -38,35 +38,35 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         when(item.itemId) {
             R.id.home -> {
-                setToolbarTitle("Mebel-Technik: home")
+                setToolbarTitle("Mebel-Technik")
                 changeFragment(Home())
             }
         }
 
         when(item.itemId) {
             R.id.about -> {
-                setToolbarTitle("Informajce O Firmie")
+                setToolbarTitle("Mebel-Technik")
                 changeFragment(About())
             }
         }
 
         when(item.itemId) {
             R.id.offer -> {
-                setToolbarTitle("Nasza Oferta")
+                setToolbarTitle("Mebel-Technik")
                 changeFragment(Oferta())
             }
         }
 
         when(item.itemId) {
             R.id.gallery -> {
-                setToolbarTitle("Nasze Realizacje")
+                setToolbarTitle("Mebel-Technik")
                 changeFragment(Galeria())
             }
         }
 
         when(item.itemId) {
             R.id.contact -> {
-                setToolbarTitle("Informacje Kontaktowe")
+                setToolbarTitle("Mebel-Technik")
                 changeFragment(Kontakt())
             }
         }
