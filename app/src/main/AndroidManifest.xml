@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPortfolio"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ContactForm"></activity>
+        <activity android:name=".GoogleMaps"></activity>
+        <activity android:name=".ContactForm" />
         <activity android:name=".ViewPdfActivity" />
         <activity
             android:name=".MainActivity"
