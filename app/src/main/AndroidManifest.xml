@@ -15,7 +15,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPortfolio"
         android:usesCleartextTraffic="true">
-        <activity android:name=".GoogleMaps"></activity>
+        <activity android:name=".FullImageE"></activity>
+        <activity android:name=".FullImageF" />
+        <activity android:name=".FullImageD" />
+        <activity android:name=".FullImageC" />
+        <activity android:name=".FullImageB" />
+        <activity android:name=".FullImageA" />
+        <activity android:name=".GoogleMaps" />
         <activity android:name=".ContactForm" />
         <activity android:name=".ViewPdfActivity" />
         <activity

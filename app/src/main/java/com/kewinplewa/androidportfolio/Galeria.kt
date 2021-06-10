@@ -1,11 +1,15 @@
 package com.kewinplewa.androidportfolio
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.cardview.widget.CardView
 import kotlinx.android.synthetic.main.fragment_galeria.*
+import kotlinx.android.synthetic.main.fragment_kontakt.*
+import kotlinx.android.synthetic.main.fragment_oferta.*
 
 class Galeria : Fragment() {
 
@@ -25,47 +29,45 @@ class Galeria : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        loadCards()
 
+        imgA.setOnClickListener {
 
-    }
+            val fieldIntent = Intent(this@Galeria.context, FullImageA::class.java)
+            startActivity(fieldIntent)
+        }
 
-    private fun loadCards() {
+        imgB.setOnClickListener {
 
-        // init the list
-        galleryModelList = ArrayList()
+            val fieldIntent = Intent(this@Galeria.context, FullImageB::class.java)
+            startActivity(fieldIntent)
+        }
 
-        // add items to list
-        galleryModelList.add(
-            GalleryModel(
-            "Meble Kuchenne",
-            "Wykonane na wymiar w pełni dostosowane do potrzeb klienta",
-            R.drawable.img_cover_1)
-        )
+        imgC.setOnClickListener {
 
-        galleryModelList.add(GalleryModel(
-            "Łazienki",
-            "Nowoczesne i stylowe, idealnie dopasowane nawet do najmniejszej przestrzeni",
-            R.drawable.img_cover_2))
+            val fieldIntent = Intent(this@Galeria.context, FullImageC::class.java)
+            startActivity(fieldIntent)
+        }
 
-        galleryModelList.add(GalleryModel(
-            "Garderoby",
-            "Pojemne i funkcjonalne - dokładnie dopasowane do architektury wnętrza",
-            R.drawable.img_cover_3))
+        imgD.setOnClickListener {
 
-        galleryModelList.add(GalleryModel(
-            "Apteki",
-            "Kompletne wyposażenie aptek - głębokie szuflady, regały apteczne, lady systemowe",
-            R.drawable.img_cover_4))
+            val fieldIntent = Intent(this@Galeria.context, FullImageD::class.java)
+            startActivity(fieldIntent)
+        }
 
-        // setup the adapter
-    galleryAdapter = GalleryAdapter(context, galleryModelList)
+        imgE.setOnClickListener {
 
-        // set adapter to Viewpager
-        viewPager.adapter = galleryAdapter
+            val fieldIntent = Intent(this@Galeria.context, FullImageE::class.java)
+            startActivity(fieldIntent)
+        }
 
-        // set the default padding
-        viewPager.setPadding(100, 0, 100, 0)
+        imgF.setOnClickListener {
+
+            val fieldIntent = Intent(this@Galeria.context, FullImageF::class.java)
+            startActivity(fieldIntent)
+        }
 
     }
+
+
+
 }
