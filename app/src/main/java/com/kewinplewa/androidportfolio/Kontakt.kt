@@ -29,5 +29,12 @@ class Kontakt : Fragment() {
             startActivity(fieldIntent)
         }
 
+        btn_map.setOnClickListener {
+
+            val fieldIntent = Intent(this@Kontakt.context, GoogleMaps::class.java)
+            startActivity(fieldIntent)
+        }
+
     }
+
 }
