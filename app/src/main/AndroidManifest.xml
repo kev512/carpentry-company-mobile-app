@@ -24,14 +24,17 @@
         <activity android:name=".GoogleMaps" />
         <activity android:name=".ContactForm" />
         <activity android:name=".ViewPdfActivity" />
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AndroidPortfolio.NoActionBar" />
+
         <activity
             android:name=".SplashScreenActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -44,5 +44,4 @@ class ViewPdfActivity : AppCompatActivity() {
         onBackPressed()
         return true
     }
-
 }
