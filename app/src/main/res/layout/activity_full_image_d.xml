@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_cover_3"
-    android:layout_marginVertical="190dp"
+    android:background="@drawable/francja1"
+    android:layout_marginVertical="180dp"
     tools:context=".FullImageD">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

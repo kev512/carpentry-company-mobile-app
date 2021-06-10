@@ -2,11 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kewinplewa.androidportfolio">
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPortfolio"
         android:usesCleartextTraffic="true">
-        <activity android:name=".FullImageE"></activity>
+        <activity android:name=".FullImageH"></activity>
+        <activity android:name=".FullImageG" />
+        <activity android:name=".FullImageE" />
         <activity android:name=".FullImageF" />
         <activity android:name=".FullImageD" />
         <activity android:name=".FullImageC" />
@@ -39,5 +36,10 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
