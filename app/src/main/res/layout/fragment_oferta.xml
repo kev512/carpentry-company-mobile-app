@@ -562,7 +562,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="72dp"
             android:text="Oferta PDF"
             app:shapeAppearanceOverlay="@style/custom_button"
             android:textSize="15sp"
