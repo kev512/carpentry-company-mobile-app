@@ -66,6 +66,18 @@ class Galeria : Fragment() {
             startActivity(fieldIntent)
         }
 
+        imgG.setOnClickListener {
+
+            val fieldIntent = Intent(this@Galeria.context, FullImageG::class.java)
+            startActivity(fieldIntent)
+        }
+
+        imgH.setOnClickListener {
+
+            val fieldIntent = Intent(this@Galeria.context, FullImageH::class.java)
+            startActivity(fieldIntent)
+        }
+
     }
 
 
