@@ -1,11 +1,10 @@
 # Mebel-Technik - Mobile Application Portfolio
 
-![GitHub all releases](https://img.shields.io/github/downloads/kev512/service-company-portfolio-mobile-app/total?logo=GitHub&style=plastic)
+![GitHub all releases](https://img.shields.io/github/downloads/kev512/service-company-portfolio-mobile-app/total?logo=GitHub&style=flat)
 [![Website](https://img.shields.io/website?style=plastic&up_message=mebel-technik.com&url=https%3A%2F%2Fwww.mebel-technik.com)](https:\\www.mebel-technik.com)
-[![Kotlin](https://https://img.shields.io/badge/kotlin-1.3.2-orange)](http://kotlinlang.org/)
+![Website](https://img.shields.io/website?color=orange&label=Kotlin&up_message=1.3.2&url=https%3A%2F%2Fkotlinlang.org)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kev512/service-company-portfolio-mobile-app?logo=GitHub)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kev512/service-company-portfolio-mobile-app?logo=GitHub)
-![project_logo](https://user-images.githubusercontent.com/55996233/121815961-365b6300-cc79-11eb-8aef-ad2eb28b499c.png)
 
 ![project_logo](https://user-images.githubusercontent.com/55996233/121815961-365b6300-cc79-11eb-8aef-ad2eb28b499c.png)
 
@@ -37,7 +36,6 @@ The project was developed using the following technologies:
 
 - Kotlin 1.3.2
 - Android Studio 4.1.2
---test
 
 ---
 
