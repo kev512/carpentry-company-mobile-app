@@ -58,11 +58,12 @@ The application was tested on the emulator provided by Android Studio, and also 
 
 ## Application Preview
 
+![Screen_6](https://user-images.githubusercontent.com/55996233/121824422-6c660a80-ccac-11eb-9133-e4dc2c397119.png)
+![Screen_1](https://user-images.githubusercontent.com/55996233/121824283-4ab85380-ccab-11eb-8bb1-7568e0be854d.png)
 ![Screen_2](https://user-images.githubusercontent.com/55996233/121824277-49872680-ccab-11eb-8d6c-6389fad99422.png)
 ![Screen_3](https://user-images.githubusercontent.com/55996233/121824278-4a1fbd00-ccab-11eb-9a9c-144bc824ef9c.png)
 ![Screen_4](https://user-images.githubusercontent.com/55996233/121824279-4a1fbd00-ccab-11eb-804f-70e226bbf502.png)
 ![Screen_5](https://user-images.githubusercontent.com/55996233/121824282-4ab85380-ccab-11eb-88d4-543a38b61064.png)
-![Screen_1](https://user-images.githubusercontent.com/55996233/121824283-4ab85380-ccab-11eb-8bb1-7568e0be854d.png)
 
 ---
 
