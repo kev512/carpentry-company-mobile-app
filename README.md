@@ -36,7 +36,6 @@ The project was developed using the following technologies:
 
 - Kotlin 1.3.2
 - Android Studio 4.1.2
---test
 
 ---
 
