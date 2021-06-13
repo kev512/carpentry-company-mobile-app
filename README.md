@@ -17,7 +17,7 @@ An academic project aimed at creating a mobile app for a service company.
 - [Description](#description)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Future software development](#future-software-development)
+- [Future Software Development](#future-software-development)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -56,7 +56,17 @@ The application was tested on the emulator provided by Android Studio, and also 
 
 ---
 
-## Future software development
+## Application Preview
+
+![Screen_2](https://user-images.githubusercontent.com/55996233/121824277-49872680-ccab-11eb-8d6c-6389fad99422.png)
+![Screen_3](https://user-images.githubusercontent.com/55996233/121824278-4a1fbd00-ccab-11eb-9a9c-144bc824ef9c.png)
+![Screen_4](https://user-images.githubusercontent.com/55996233/121824279-4a1fbd00-ccab-11eb-804f-70e226bbf502.png)
+![Screen_5](https://user-images.githubusercontent.com/55996233/121824282-4ab85380-ccab-11eb-88d4-543a38b61064.png)
+![Screen_1](https://user-images.githubusercontent.com/55996233/121824283-4ab85380-ccab-11eb-8bb1-7568e0be854d.png)
+
+---
+
+## Future Software Development
 
 The future goal for my software is connection to a Firebase database. Thanks to this solution, it will be possible to validate users. The introduction of the login panel will allow access to additional, personalized sections of the application. The main assumption for introducing such applications, is increasing the company's contact with the customer. In personalized sections of the application, the user will be able to view, for example, the current status of the order, or information on the project cost estimate. Such a solution would significantly improve the marketing quality of a given company.
 
