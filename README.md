@@ -13,12 +13,11 @@ An academic project aimed at creating a mobile app for a service company.
 ---
 
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [References](#references)
+- [Future software development](#future-software-development)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -43,14 +42,23 @@ The project was developed using the following technologies:
 
 To run this project, install it locally by following these steps
 
-> #### Installation
->
+#### Installation
+
 > - **Step 1:** Open your Android Studio then go to the **File > New > Project from Version Control** as shown in the below image.
 > - **Step 2:** After clicking on the **Project from Version Control** a pop-up screen will arise like below. In the **Version** control choose **Git** from the drop-down menu.
 > - **Step 3:** Then at last **paste the link in the URL** and choose your **Directory**. Click on the **Clone** button and you are done.
 
-## References
-[Back To The Top](#read-me-template)
+#### API Reference
+
+For the greatest possible compatibility, also for slightly older devices, the application uses the **API version of minimum 19/20 - Android 4.4 KitKat**.
+
+The application has was tested on the emulator provided by Android Studio, and also on the several physical devices. For testing purpose, I tried to choose devices with different screen resolutions. During development process, the application was at Pixel/Pixel 2 (1080 x 1920, 420dpi) API 30 - Android 11.
+
+---
+
+## Future software development
+
+The future goal for my software is connection to a Firebase database. Thanks to this solution, it will be possible to validate users. The introduction of the login panel will allow access to additional, personalized sections of the application. The main assumption for introducing such applications, is increasing the company's contact with the customer. In personalized sections of the application, the user will be able to view, for example, the current status of the order, or information on the project cost estimate. Such a solution would significantly improve the marketing quality of a given company.
 
 ---
 
@@ -58,7 +66,7 @@ To run this project, install it locally by following these steps
 
 MIT License
 
-Copyright (c) [2017] [James Q Quick]
+Copyright (c) [2021] [Kewin Plewa]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -78,13 +86,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#read-me-template)
-
 ---
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Email - kewin5@onet.eu
 
 [Back To The Top](#read-me-template)
