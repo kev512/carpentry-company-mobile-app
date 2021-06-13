@@ -91,5 +91,3 @@ SOFTWARE.
 ## Author Info
 
 - Email - kewin5@onet.eu
-
-[Back To The Top](#read-me-template)
