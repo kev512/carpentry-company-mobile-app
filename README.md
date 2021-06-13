@@ -25,7 +25,7 @@ An academic project aimed at creating a mobile app for a service company.
 
 ## Description
 
-The aim of this project was to create a mobile app for a service company. The concept I chose, is to create an application that is a kind of a portfolio of the carpentry company. The main goal of my work was to build an additional, but also modern, form of contact with an interested client. Thanks to the application, the user can learn about all the most important information and contact the company directly.
+The aim of this project was to create a mobile app for a service company. The concept I chose, is to create an application that is a kind of a portfolio of the carpentry company. The main goal of my work was to build an additional, but also modern form of contact with an interested clients. Thanks to the application, the user can learn about all the most important information and contact the company directly.
 
 ---
 
@@ -40,7 +40,7 @@ The project was developed using the following technologies:
 
 ## Setup
 
-To run this project, install it locally by following these steps
+To run this project, install it locally by following these steps:
 
 #### Installation
 
@@ -52,7 +52,7 @@ To run this project, install it locally by following these steps
 
 For the greatest possible compatibility, also for slightly older devices, the application uses the **API version of minimum 19/20 - Android 4.4 KitKat**.
 
-The application was tested on the emulator provided by Android Studio, and also on the several physical devices. For testing purpose, I tried to choose devices with different screen resolutions. During development process, the application was at Pixel/Pixel 2 (1080 x 1920, 420dpi) API 30 - Android 11.
+The application was tested on the emulator provided by Android Studio and also on the several physical devices. For testing purpose, I tried to choose devices with different screen resolutions. During development process, the application was tested at Pixel/Pixel 2 (1080 x 1920, 420dpi) API 30 - Android 11.
 
 ---
 
@@ -69,7 +69,7 @@ The application was tested on the emulator provided by Android Studio, and also 
 
 ## Future Software Development
 
-The future goal for my software is connection to a Firebase database. Thanks to this solution, it will be possible to validate users. The introduction of the login panel will allow access to additional, personalized sections of the application. The main assumption for introducing such applications, is increasing the company's contact with the customer. In personalized sections of the application, the user will be able to view, for example, the current status of the order, or information on the project cost estimate. Such a solution would significantly improve the marketing quality of a given company.
+The future goal for development of my software is connection with a Firebase database. Thanks to this solution, it will be possible to validate users. The introduction of the login panel will allow an access to additional and personalized sections of the application. The main assumption for developing such applications, is increasing the company's contact with the customers. In personalized sections of the application, the user will be able to view, for example, the current status of the order, or information on the project cost estimate. Such solution would significantly improve the marketing quality of the company.
 
 ---
 
