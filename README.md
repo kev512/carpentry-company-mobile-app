@@ -1,4 +1,4 @@
-# Mebel-Technik - Mobile Application Portfolio
+# Mebel-Technik - Portfolio Mobile App
 
 ![GitHub all releases](https://img.shields.io/github/downloads/kev512/service-company-portfolio-mobile-app/total?logo=GitHub&style=flat)
 [![Website](https://img.shields.io/website?up_message=mebel-technik.com&url=https%3A%2F%2Fmebel-technik.com)](https://mebel-technik.com)
@@ -17,7 +17,7 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [Technologies](#technologies)
-- [How To Use](#how-to-use)
+- [Setup](#setup)
 - [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
@@ -26,7 +26,7 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-The aim of this project was to create a mobile app for a service company. The concept I chose, is to create an application that is a kind of a portfolio of the carpentry company. The main goal of my work was to build an additional, but also modern form of contact with an interested client. Thanks to the application, the user can learn about all the most important information and contact the company directly.
+The aim of this project was to create a mobile app for a service company. The concept I chose, is to create an application that is a kind of a portfolio of the carpentry company. The main goal of my work was to build an additional, but also modern, form of contact with an interested client. Thanks to the application, the user can learn about all the most important information and contact the company directly.
 
 ---
 
@@ -39,20 +39,15 @@ The project was developed using the following technologies:
 
 ---
 
-## How To Use
+## Setup
 
-#### Installation
+To run this project, install it locally by following these steps
 
-
-
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
-
----
+> #### Installation
+>
+> - **Step 1:** Open your Android Studio then go to the **File > New > Project from Version Control** as shown in the below image.
+> - **Step 2:** After clicking on the **Project from Version Control** a pop-up screen will arise like below. In the **Version** control choose **Git** from the drop-down menu.
+> - **Step 3:** Then at last **paste the link in the URL** and choose your **Directory**. Click on the **Clone** button and you are done.
 
 ## References
 [Back To The Top](#read-me-template)
