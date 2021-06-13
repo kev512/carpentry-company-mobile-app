@@ -17,6 +17,7 @@ An academic project aimed at creating a mobile app for a service company.
 - [Description](#description)
 - [Technologies](#technologies)
 - [Setup](#setup)
+- [Application Preview](#application-preview)
 - [Future Software Development](#future-software-development)
 - [License](#license)
 - [Author Info](#author-info)
