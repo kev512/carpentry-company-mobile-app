@@ -5,7 +5,6 @@
 ![Website](https://img.shields.io/website?color=orange&label=Kotlin&up_message=1.3.2&url=https%3A%2F%2Fkotlinlang.org)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kev512/service-company-portfolio-mobile-app?logo=GitHub)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kev512/service-company-portfolio-mobile-app?logo=GitHub)
-![project_logo](https://user-images.githubusercontent.com/55996233/121815961-365b6300-cc79-11eb-8aef-ad2eb28b499c.png)
 
 ![project_logo](https://user-images.githubusercontent.com/55996233/121815961-365b6300-cc79-11eb-8aef-ad2eb28b499c.png)
 
