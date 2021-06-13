@@ -1,8 +1,13 @@
-# Mebel-Technik - mobile application as a service company portfolio
+# Mebel-Technik - Mobile Application Portfolio
 
+![GitHub all releases](https://img.shields.io/github/downloads/kev512/service-company-portfolio-mobile-app/total?logo=GitHub&style=plastic)
+![![Website](https://img.shields.io/website?style=plastic&up_message=mebel-technik.com&url=https%3A%2F%2Fwww.mebel-technik.com)](https:\\www.mebel-technik.com)
+![](https://https://img.shields.io/badge/kotlin-1.3.2-orange)
+![GitHub last commit](https://img.shields.io/github/last-commit/kev512/service-company-portfolio-mobile-app?logo=GitHub)
+![GitHub repo size](https://img.shields.io/github/repo-size/kev512/service-company-portfolio-mobile-app?logo=GitHub)
 ![project_logo](https://user-images.githubusercontent.com/55996233/121815961-365b6300-cc79-11eb-8aef-ad2eb28b499c.png)
 
-> An academic project aimed at creating a mobile app for a service company.
+An academic project aimed at creating a mobile app for a service company.
 
 ---
 
