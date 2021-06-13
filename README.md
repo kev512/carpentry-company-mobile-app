@@ -69,7 +69,7 @@ The application was tested on the emulator provided by Android Studio and also o
 
 ## Future Software Development
 
-The future goal for development of my software is connection with a Firebase database. Thanks to this solution, it will be possible to validate users. The introduction of the login panel will allow an access to additional and personalized sections of the application. The main assumption for developing such applications, is increasing the company's contact with the customers. In personalized sections of the application, the user will be able to view, for example, the current status of the order, or information on the project cost estimate. Such solution would significantly improve the marketing quality of the company.
+The future goal of my software development is connection with a Firebase database. Thanks to this solution, it will be possible to validate users. The introduction of the login panel will allow an access to additional and personalized sections of the application. The main assumption for developing such applications, is increasing the company's contact with the customers. In personalized sections of the application, the user will be able to view, for example, the current status of the order, or information on the project cost estimate. Such solution would significantly improve the marketing quality of the company.
 
 ---
 
