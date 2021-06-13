@@ -52,7 +52,7 @@ To run this project, install it locally by following these steps
 
 For the greatest possible compatibility, also for slightly older devices, the application uses the **API version of minimum 19/20 - Android 4.4 KitKat**.
 
-The application has was tested on the emulator provided by Android Studio, and also on the several physical devices. For testing purpose, I tried to choose devices with different screen resolutions. During development process, the application was at Pixel/Pixel 2 (1080 x 1920, 420dpi) API 30 - Android 11.
+The application was tested on the emulator provided by Android Studio, and also on the several physical devices. For testing purpose, I tried to choose devices with different screen resolutions. During development process, the application was at Pixel/Pixel 2 (1080 x 1920, 420dpi) API 30 - Android 11.
 
 ---
 
