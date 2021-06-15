@@ -49,7 +49,7 @@ To run this project, install it locally by following these steps:
 > - **Step 2:** After clicking on the **Project from Version Control** a pop-up screen will arise. In the **Version** control choose **Git** from the drop-down menu.
 > - **Step 3:** Then at last **paste the link in the URL** and choose your **Directory**. Click on the **Clone** button and you are done.
 > - **URL:**
-             ```html
+             ```
                  https://github.com/kev512/carpentry-company-mobile-app.git
              ```
 
